@@ -1,0 +1,8 @@
+*
+!/**/
+!*.v
+!*.xise
+!*.sch
+!*.ucf
+!.gitignore
+!README.md
