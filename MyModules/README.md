@@ -4,7 +4,7 @@
 
 ## 相关引脚
 
-时钟引脚
+时钟引脚 (2E-8s / clk)
 
 ```verilog
 NET "clk" LOC = AC18 | IOSTANDARD = LVCMOS18;
@@ -61,7 +61,7 @@ NET "SW[15]" LOC = AF10 | IOSTANDARD = LVCMOS15;
 
 左侧按钮板的最后一排。
 
-`BTNX4` 指定排，要赋值为 0
+`BTNX4` 指定排为 W16，要赋值为 0 表示可用。
 
 ```verilog
 NET "BTN[0]" LOC = W14 | IOSTANDARD = LVCMOS18;
