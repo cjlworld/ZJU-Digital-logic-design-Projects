@@ -34,9 +34,9 @@ module LED_DRV_SYNC( // 16 个 LED 灯的驱动，自动刷新版
 	
 	wire load;
 	
-	CLK_FOR_LED16 my_clk_for_LED16(
+	ClkForSync my_clk_for_sync(
 		.clk (clk),
-		.clk_for_led (load)
+		.clk_for_sync (load)
 	);
 	
 	assign LED_CLK = clk | finished;
