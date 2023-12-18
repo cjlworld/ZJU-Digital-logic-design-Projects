@@ -12,3 +12,10 @@ P.S. 注意 ISE 运行项目需要文件路径中不出现中文和空格。
 Get-ChildItem -Recurse | Where-Object { $_.Extension -notin ('.v', '.xise', '.sch', '.ucf', '.md', '.gitignore') } | Remove-Item -Force
 ```
 
+***
+
+参考资料：
+
+- [yile-liu/ZJU_digital_logic_design: ZJU_digital_logic_design 数字逻辑设计 (github.com)](https://github.com/yile-liu/ZJU_digital_logic_design)
+
+ 
