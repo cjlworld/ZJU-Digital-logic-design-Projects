@@ -4,10 +4,17 @@
 
 自定义的常用模块，大多是课程作业里的。
 
-- `clk_100ms` 
-- `clk_500ms` 
+- `clk_100ms` ：一个时钟周期为 100ms 的 clk
+- `clk_500ms` ： 一个时钟周期为 500ms 的 clk
 
-...
+- `clkdiv` ：32 分级时钟，第 $k$ 级的时钟周期为原时钟周期的 $2^{k+1}$ 倍 
+- `ClkForSync` ：用于同步的时钟 每 2048 个周期 跳变 两个周期
+- `CreateNumber` ：用 btn 板控制 4 位数码管
+- `DisplaySync, DispNum`：4 位数码管显示
+- `MyMC14495`：将 16 进制数字转换为 数码管对应位 信息
+- `LED_DRV_SYNC` ：下侧 LED 灯同步显示驱动，传入 16'b
+- `SEG_DRV_SYNC` ：8 位数码管同步显示驱动
+- `pbdebounce` ：btn 面板的 buffer
 
 ## 相关引脚
 
