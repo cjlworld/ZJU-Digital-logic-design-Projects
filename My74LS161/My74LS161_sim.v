@@ -70,12 +70,5 @@ module My74LS161_sim;
 
     #1000 $finish;  // Finish simulation after some time
   end
-
-  // Display output
-  always @(posedge CP) begin
-    $display("Time=%t CP=%b CR=%b Ld=%b CTT=%b CTP=%b D=%b Q=%b CO=%b",
-             $time, CP, CR, Ld, CTT, CTP, D, Q, CO);
-  end
-
 endmodule
 

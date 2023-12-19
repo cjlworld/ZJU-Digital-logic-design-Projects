@@ -14,6 +14,10 @@ Get-ChildItem -Recurse | Where-Object { $_.Extension -notin ('.v', '.xise', '.sc
 
 ***
 
+一些模块和引脚的说明：[ZJU-Digital-logic-design-Projects/MyModules](https://github.com/cjlworld/ZJU-Digital-logic-design-Projects/tree/main/MyModules) 
+
+***
+
 参考资料：
 
 - [yile-liu/ZJU_digital_logic_design: ZJU_digital_logic_design 数字逻辑设计 (github.com)](https://github.com/yile-liu/ZJU_digital_logic_design)
