@@ -10,7 +10,7 @@
 - `clkdiv` ：32 分级时钟，第 $k$ 级的时钟周期为原时钟周期的 $2^{k+1}$ 倍 
 - `ClkForSync` ：用于同步的时钟 每 2048 个周期 跳变 两个周期
 - `CreateNumber` ：用 btn 板控制 4 位数码管
-- `DisplaySync, DispNum`：4 位数码管显示
+- `DisplaySync` ,  `DispNum`：4 位数码管显示
 - `MyMC14495`：将 16 进制数字转换为 数码管对应位 信息
 - `LED_DRV_SYNC` ：下侧 LED 灯同步显示驱动，传入 16'b
 - `SEG_DRV_SYNC` ：8 位数码管同步显示驱动
